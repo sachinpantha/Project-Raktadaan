@@ -9,7 +9,7 @@ function myFunction(){
     var N2= document.getElementById('no3').checked;
     var N3= document.getElementById('no4').checked;
     var audio= document.getElementById('xyz');
-    if (Nm!='' && Ag!=''&& Wt!=''&& SP!=''&& DP!='' && N!=true && N1!=true && N2!=true && N3!=true) {
+    if (Nm!='' && Ag!=''&& Wt!=''&& SP!=''&& DP!='' && N!=false && N1!=false && N2!=false && N3!=false) {
         if (Ag>=16 && Ag<=60) {
             if (Wt >=50 && Wt <=158) {
                 if (SP<=180 && SP>=90 && DP<=100 && DP>=50) {
