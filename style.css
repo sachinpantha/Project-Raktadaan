@@ -1,0 +1,91 @@
+.logo{
+    margin: auto;
+}
+.card{
+    margin: auto;
+    margin-top: 8%;
+    margin-bottom: 8%;
+    padding-top: 12px;
+}
+.card:hover{
+transform: scale(1.02);
+box-shadow: 3px 2px 20px -4px rgba(0,0,0,0.75);
+}
+
+#select{
+margin: 12px;
+margin-bottom: 55px;
+}
+.btn{
+  margin: auto;
+}
+input{
+text-align: center;
+font-family: 'Ubuntu', sans-serif;
+display: block;
+margin : 0 auto;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+-webkit-appearance: none;
+margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+-moz-appearance: textfield;
+}
+p{
+font-family: 'Ubuntu', sans-serif;
+}
+.card-title{
+font-family: 'Ubuntu', sans-serif;
+margin-left: 16px;
+}
+.read{
+margin-top: 8px;
+margin-bottom:8px ;
+display: inline;
+font-family: 'Ubuntu', sans-serif;
+}
+.dropdown{
+    font-family: 'Ubuntu', sans-serif;
+
+}
+.container{
+    float: left;
+    clear: none;
+  }
+  
+  label {
+    float: left;
+    clear: none;
+    display: block;
+    padding: 0px 1em 0px 8px;
+  }
+  
+  input[type=radio],
+  input.radio {
+    float: left;
+    clear: none;
+    margin: 2px 0 0 2px;
+  }
+  .card-title {
+    margin-left: 66px;
+    color: red;
+  }
+  .dropdown {
+    display: inline;
+  }
+  #select {
+    margin-bottom: 15px;
+  }
+  .button{
+    margin-left: 28%;
+    cursor: pointer;
+    /*font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;*/
+    font-family: "Ubuntu", sans-serif;
+  }
+  .button:hover {
+    background-color: #3e8e41;
+  }

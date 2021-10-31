@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+    <title>Project Raktadaan</title>
+  </head>
+  <body
+    style="
+      background-image: linear-gradient(to right, #306377 0%, #88314e 100%);
+    "
+  >
+    <div class="card" style="width: 21rem">
+      <img
+        src="imagefile/project raktadaan (2).png"
+        class="logo"
+        width="180px"
+        height="80px"
+        alt="..."
+      />
+      <div class="card-body">
+        <h5 class="card-title">Project Raktadaan</h5>
+        <div class="container">
+          <form action="">
+            <label for="Name" class="read">Name:</label>
+            <input class="box" type="text" id="Name" name="Name" />
+            <label for="Age" class="read">Age:</label>
+            <input class="box" type="number" id="Age" name="Age" /><br />
+            <label for="Weight" class="read">Weight(In Kgs):</label>
+            <input class="box" type="number" id="Weight" name="Weight" /><br />
+            <p class="read">Gender:</p>
+            <select name="select" id="select">
+              <option id="Male" class="dropdown" value="Male">Male</option>
+              <option id="Female" class="dropdown" value="Female">
+                Female
+              </option>
+              <option id="Others" class="dropdown" value="Others">
+                Others
+              </option></select
+            ><br />
+            <label for="SBP" class="read">Systolic BP:</label>
+            <input
+              class="box"
+              type="number"
+              id="SBP"
+              name="SBP"
+              placeholder="Uppermost value of your BP"
+            />
+            <label for="DBP" class="read">Diastolic BP:</label>
+            <input
+              class="box"
+              type="number"
+              id="DBP"
+              name="DBP"
+              placeholder="Lowermost value of your BP"
+            />
+            <br />
+            <p class="read">
+              Are you a patient of any of these
+              <a
+                href="https://www.mskcc.org/about/get-involved/donating-blood/additional-donor-requirements/medical-conditions-affecting-donation"
+                >disease</a
+              >?
+            </p>
+            <br />
+            <div class="container">
+              <input type="radio" id="yes" name="di" value="yes" />  
+              <label for="yes"><p class="read">Yes</p></label>
+               
+              <input
+                type="radio"
+                id="no"
+                style="margin-left: 25px"
+                name="di"
+                value="no"
+              />
+               
+              <label for="no"><p class="read">No</p></label>
+            </div>
+            <p class="read">Did you had any surgery recently?</p>
+            <br />
+            <div class="container">
+              <input type="radio" id="yes2" name="surgery" value="yes" />  
+              <label for="yes"><p class="read">Yes</p></label>
+               
+              <input
+                type="radio"
+                id="no2"
+                style="margin-left: 25px"
+                name="surgery"
+                value="no"
+              />
+               
+              <label for="no"><p class="read">No</p></label>
+            </div>
+            <p class="read">Did you had any tattoo in past 6 months?</p>
+            <br />
+            <div class="container">
+              <input type="radio" id="yes3" name="tattoo" value="yes" />  
+              <label for="yes"><p class="read">Yes</p></label>
+               
+              <input
+                type="radio"
+                id="no3"
+                style="margin-left: 25px"
+                name="tattoo"
+                value="no"
+              />
+               
+              <label for="no"><p class="read">No</p></label>
+            </div>
+            <p class="read">
+              Did you have any fever or bacterial infection currently?
+            </p>
+            <br />
+            <div class="container">
+              <input type="radio" id="yes4" name="infection" value="yes" />  
+              <label for="yes"><p class="read">Yes</p></label>
+               
+              <input
+                type="radio"
+                id="no4"
+                style="margin-left: 25px"
+                name="infection"
+                value="no"
+              />
+               
+              <label for="no"><p class="read">No</p></label>
+            </div>
+            <button class="button btn-primary" onclick="myFunction()">Evaluate</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <audio id="xyz" src="Ding Sound Effect.mp3" preload="auto"></audio>
+  </body>
+</html>
