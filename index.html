@@ -42,14 +42,14 @@
         <div class="container">
           <form action="">
             <label for="Name" class="read">Name:</label>
-            <input class="box" type="text" id="Name" name="Name" />
+            <input class="box" type="text" id="Name" name="Name" required/>
             <label for="Age" class="read">Age:</label>
-            <input class="box" type="number" id="Age" name="Age" /><br />
+            <input class="box" type="number" id="Age" name="Age" required/><br />
             <label for="Weight" class="read">Weight(In Kgs):</label>
-            <input class="box" type="number" id="Weight" name="Weight" /><br />
+            <input class="box" type="number" id="Weight" name="Weight" required/><br />
             <p class="read">Gender:</p>
-            <select name="select" id="select">
-              <option id="Male" class="dropdown" value="Male">Male</option>
+            <select name="select" id="select" required>
+              <option id="Male" class="dropdown" value="Male" >Male</option>
               <option id="Female" class="dropdown" value="Female">
                 Female
               </option>
@@ -64,6 +64,7 @@
               id="SBP"
               name="SBP"
               placeholder="Uppermost value of your BP"
+              required
             />
             <label for="DBP" class="read">Diastolic BP:</label>
             <input
@@ -72,6 +73,7 @@
               id="DBP"
               name="DBP"
               placeholder="Lowermost value of your BP"
+              required
             />
             <br />
             <p class="read">
@@ -83,7 +85,7 @@
             </p>
             <br />
             <div class="container">
-              <input type="radio" id="yes" name="di" value="yes" />  
+              <input type="radio" id="yes" name="di" value="yes" required />  
               <label for="yes"><p class="read">Yes</p></label>
                
               <input
@@ -92,6 +94,7 @@
                 style="margin-left: 25px"
                 name="di"
                 value="no"
+                required
               />
                
               <label for="no"><p class="read">No</p></label>
@@ -99,7 +102,7 @@
             <p class="read">Did you had any surgery recently?</p>
             <br />
             <div class="container">
-              <input type="radio" id="yes2" name="surgery" value="yes" />  
+              <input type="radio" id="yes2" name="surgery" value="yes" required />  
               <label for="yes"><p class="read">Yes</p></label>
                
               <input
@@ -108,6 +111,7 @@
                 style="margin-left: 25px"
                 name="surgery"
                 value="no"
+                required
               />
                
               <label for="no"><p class="read">No</p></label>
@@ -115,7 +119,7 @@
             <p class="read">Did you had any tattoo in past 6 months?</p>
             <br />
             <div class="container">
-              <input type="radio" id="yes3" name="tattoo" value="yes" />  
+              <input type="radio" id="yes3" name="tattoo" value="yes" required />  
               <label for="yes"><p class="read">Yes</p></label>
                
               <input
@@ -124,6 +128,7 @@
                 style="margin-left: 25px"
                 name="tattoo"
                 value="no"
+                required
               />
                
               <label for="no"><p class="read">No</p></label>
@@ -133,7 +138,7 @@
             </p>
             <br />
             <div class="container">
-              <input type="radio" id="yes4" name="infection" value="yes" />  
+              <input type="radio" id="yes4" name="infection" value="yes" required/>  
               <label for="yes"><p class="read">Yes</p></label>
                
               <input
@@ -142,6 +147,7 @@
                 style="margin-left: 25px"
                 name="infection"
                 value="no"
+                required
               />
                
               <label for="no"><p class="read">No</p></label>
