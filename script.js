@@ -49,6 +49,7 @@ function myFunction(){
         
     }
     else{
+        navigator.vibrate(500);
         audio.play();
         alert('Please enter all fields');
     }
